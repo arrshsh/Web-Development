@@ -1,0 +1,17 @@
+.red-heading{
+	color: red
+	} 			 --> class selector 
+#main{
+	color: red
+	}			 --> ID selector 
+p[draggable]{
+	color: red
+	}			--> Attribute selector; selects all the <p> element in which draggable attribute is used
+
+p[draggable = "false"]{
+	color: red
+	} 			--> Selects only those <p> elements which have the value of draggable as false
+
+*{
+	color: red
+}				--> Universal Selector
